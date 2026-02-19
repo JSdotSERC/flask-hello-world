@@ -2,6 +2,5 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-    name = input("What is your name?")
-    print ("Hello [name]!")
+   return "Hello everyone! My name is PyFile, and I am speaking to you from a working Azure Web App!"
     
