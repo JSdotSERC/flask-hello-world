@@ -3,4 +3,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Alastair!'
+    name = input("What is your name?")
+    greeting = "Hello [name]!
+    return greeting
